@@ -28,3 +28,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Style components
+
+Libs used:
+- Style components
+- Grommet: https://v2.grommet.io/
+- grommet-icons: https://github.com/grommet/grommet-icons
+
+## Interesting resources
+
+- Style components ecosystem: https://styled-components.com/ecosystem
+- Icons: https://github.com/styled-icons/styled-icons

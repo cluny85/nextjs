@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.bg};
   text-align: center;
 `;
 
 export const Text = styled.div`
   font-size: 14px;
-  color: #000;
+  color: ${({ theme }) => theme.colors.primary};
 `;
 
 export const Main = styled.main`

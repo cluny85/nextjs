@@ -1,10 +1,14 @@
 import Head from 'next/head'
+import useDarkMode from 'use-dark-mode';
 import styles from '../styles/Home.module.css'
 import {
   Container, Text, Main, Title, Link,
 } from '../styles/styles';
+import StyledLink from '../components/StyledLink';
+
 
 export default function Home() {
+  const darkMode = useDarkMode(false);
   return (
     <div className={styles.container}>
       <Head>
@@ -16,6 +20,14 @@ export default function Home() {
         <Text>
           Hello world 🤓
         </Text>
+        <Text>
+          The dark mode is {darkMode.value ? 'ON' : 'OFF'}
+        </Text>
+        <StyledLink
+          href='/grommet'
+        >
+          Grommet example view
+        </StyledLink>
       </Container>
 
       <Main>
