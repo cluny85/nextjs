@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import {
-  Container, Text,
-} from './styles';
+  Container, Text, Main, Title, Link,
+} from '../styles/styles';
 
 export default function Home() {
   return (
@@ -18,10 +18,10 @@ export default function Home() {
         </Text>
       </Container>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <Main>
+        <Title>
+          Welcome to <Link href="https://nextjs.org">Next.js!</Link>
+        </Title>
 
         <p className={styles.description}>
           Get started by editing{' '}
@@ -57,7 +57,7 @@ export default function Home() {
             </p>
           </a>
         </div>
-      </main>
+      </Main>
 
       <footer className={styles.footer}>
         <a
